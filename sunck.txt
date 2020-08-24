@@ -30,4 +30,5 @@
 	1.确认存放的文件的位置 
 	2.需要先下载主体（master）:git clone git@github.com:zouzhongming-pang/sunck.git 
 	3.创建与切换同时进行：git checkout -b zzm
-	4.分支与主体进行合并
+	4.分支与主体进行合并：git merge zzm
+	5.合并以后进行提交远程库：git push origin
