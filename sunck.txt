@@ -1,25 +1,33 @@
-sunck is a vary handsome man
-sunck is a vary  man
-
-122546sd
-xym is good man
-邹钟鸣最帅
-我错愕了
-dsajdasl
-sdadadsdsdsa
-擦的损失达到
-=
-sdadasdad
+创建仓库：进入文件夹以后，输入"git init"
 
 
-dsaddsdqwdwd
-sadsdasad
-
-撒旦请问企鹅
-sadsad
-wdsad
-dsadsadsadsa
-最少的人，情芳
-
-
-倒萨倒萨
+1.切换到目录：把文件夹拖动到"Git Bash"里面，就会切换到当前目录
+2.文本放入仓库：git add sunck.txt
+3.进行备注：git commit -m "第一次提交"
+4.查看仓库状态：git status
+5.查看修改内容：git diff
+6.查看最近日志：git log /git log --pretty=oneline（每一条只显示一行）,按q 进行退出
+7.回退到上一个版本：git reset --hard HEAD^
+8.上两次版本：git reset --hard HEAD^^
+9.上一百次版本：git reset --hard HEAD~100
+10.根据版本号来回退：配合"git log --pretty=oneline"，查看版本号，git reset --hard+具体版本号
+11.记录每一次命令：git reflog
+12.回退到上一次"git commit -m"..""之后的状态：git checkout -- sunck.txt
+13.拉取远程库内容到本地库：git pull origin master --allow-unrelated-history
+14.推送本地库内容到远程库：git push origin master
+15.克隆远程库到电脑：git clone git@github.com:zouzhongming-pang/sunck.git
+16.创建普通文件：touch  文件名
+17.操作文件：vim 文件名     ----退出是用   ：q
+18.创建   .gitignore.txt 文件，将文件名放在里面就不能推送到远程库
+19.创建分支： git branch 分支名（#分支等于在不同两个不同的文件）
+20.切换分支： git checkout 分支名
+21.创建与切换同时进行：git checkout -b 分支名
+22.查看当前分支：git branch
+23.把分支的数据合并在主体上：git merge 分支名
+24.删除分支：git push origin :分支名
+25.创建远程分支：git push --set-upstream origin zzm
+26.新电脑需要获得分支的文件夹：
+	1.确认存放的文件的位置 
+	2.需要先下载主体（master）:git clone git@github.com:zouzhongming-pang/sunck.git 
+	3.创建与切换同时进行：git checkout -b zzm
+	4.分支与主体进行合并
