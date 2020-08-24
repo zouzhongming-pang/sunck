@@ -29,12 +29,11 @@
 26.新电脑需要获得分支的文件夹：
 	1.确认存放的文件的位置 ，存放主体
 	2.需要先下载主体（master）:git clone git@github.com:zouzhongming-pang/sunck.git 
-	3.创建与切换同时进行：git checkout -b zzm
+	3.创建与切换同时进行：git checkout -b zzm 
 	4.分支进行操作修改代码，操作完成后
 	5.切换回主体：git checkout master 顺手查看一下是否切换成功 git branch
 	6.分支与主体进行合并：git merge zzm
 	7.合并以后进行提交远程库：git push origin
-	8.前面说的都是测试
+	8.进行数据操作以后要：git add .  // git commit -m "进行标注"
+	9.当同一个文件分支修改了，主体也修改了，最后进行合并导致合并出现两个结果，这个时候请自行手动删除
 
-	
-	
