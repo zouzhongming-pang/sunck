@@ -32,7 +32,6 @@
 	3.创建与切换同时进行：git checkout -b zzm
 	4.分支进行操作修改代码，操作完成后
 	5.切换回主体：git checkout master 顺手查看一下是否切换成功 git branch
-	6.分支与主体进行合并：git merge zzm
-	7.合并以后进行提交远程库：git push origin
+
 	
 	
